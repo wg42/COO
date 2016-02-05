@@ -1,4 +1,4 @@
-#include "../headers/ppm.h"
+#include "Ppm.h"
 
 inline SHORT diff(SHORT a, SHORT b)
 {
@@ -59,7 +59,7 @@ void Ppm::line(SHORT I1, SHORT J1, SHORT I2, SHORT J2, ULONG color)
 		dPij = dPj-(dJ<<1);
 		P = dPj-dJ;
 
-		for ( ; dJ>=0; dJ--)í°€)
+		for ( ; dJ>=0; dJ--)ï¿½ï¿½ï¿½)
 		{
 			setpixel(currentI, currentJ, color);
 			if (P>0)

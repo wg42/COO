@@ -1,11 +1,27 @@
+#ifndef PPM_H
+# define PPM_H
+
 // /////////////////////////////////////////////////////////
 // header i n c l u s dans tous l e s f i c h i e r s sour c e s //
 // /////////////////////////////////////////////////////////
 
-#include <fstream.h>
-#include <iostream.h>
-#include <cassert>
-#include <math.h>
+# include <fstream>
+# include <iostream>
+# include <cassert>
+# include <math.h>
+
+
+// //////////////////////////////////
+// De f i n i t i o n des c o u l e u r s de base
+// //////////////////////////////////
+# define ROUGE 0x00FF0000
+# define BLEU 0x000000FF
+# define VERT 0x0000FF00
+# define JAUNE 0x00FFFF00
+# define ROSE 0x00FF00FF
+# define CYAN 0x0000FFFF
+# define NOIR 0x00000000
+# define BLANC 0x00FFFFFF
 
 // //////////////////////////////////
 // Re d e f i n i t i o n des t y p e s d ' e n t i e r s //
@@ -16,18 +32,6 @@ typedef unsigned short USHORT;
 typedef long LONG;
 typedef short SHORT;
 typedef char CHAR;
-
-// //////////////////////////////////
-// De f i n i t i o n des c o u l e u r s de base
-// //////////////////////////////////
-#define ROUGE 0x00FF0000
-#define BLEU 0x000000FF
-#define VERT 0x0000FF00
-#define JAUNE 0x00FFFF00
-#define ROSE 0x00FF00FF
-#define CYAN 0x0000FFFF
-#define NOIR 0x00000000
-#define BLANC 0x00FFFFFF
 
 // ////////////////////////////////////////////////////////////////
 // De f i n i t i o n de l a c l a s s e Ppm //
@@ -83,3 +87,5 @@ class Ppm
 		// t r a c e une l i g n e a p a r t i r de deux p o int s
 		void line(SHORT, SHORT, SHORT, SHORT, ULONG color);
 };
+
+#endif // PPM_H

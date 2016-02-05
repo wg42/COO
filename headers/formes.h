@@ -1,10 +1,10 @@
-#ifndef __FORMES_H__
-#define __FORMES_H__
+#ifndef FORMES_H
+# define FORMES_H
 
-#include "Point.h"
-#include "Cercle.h"
-#include "Segment.h"
-#include "Facette.h"
-#include "Cube.h"
+# include "Point.h"
+# include "Segment.h"
+# include "Facette.h"
+# include "Cercle.h"
+# include "Cube.h"
 
 #endif

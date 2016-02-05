@@ -18,7 +18,7 @@ HEADERS = headers
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	@gcc $(FLAGS)
+	@g++ $(FLAGS)
 
 clean:
 	@rm -Rf obj

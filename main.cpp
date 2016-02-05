@@ -1,5 +1,5 @@
-#include "ppm.h"
-#include "formes.h"
+#include "headers/formes.h"
+#include "headers/Ppm.h"
 #define T 80
 
 int main ()
