@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1454702200 source:c:\users\admin\desktop\coo2\main.cpp
+	"headers/formes.h"
+	"headers/Ppm.h"
+
+1454702411 c:\users\admin\desktop\coo2\headers\ppm.h
+	<fstream>
+	<iostream>
+	<cassert>
+	<math.h>
+
+1454702377 c:\users\admin\desktop\coo2\headers\formes.h
+	"Point.h"
+	"Segment.h"
+	"Facette.h"
+	"Cercle.h"
+	"Cube.h"
+
+1454702383 c:\users\admin\desktop\coo2\headers\point.h
+	"Ppm.h"
+
+1454702348 c:\users\admin\desktop\coo2\headers\cercle.h
+	"Point.h"
+
+1454702364 c:\users\admin\desktop\coo2\headers\segment.h
+
+1454702369 c:\users\admin\desktop\coo2\headers\facette.h
+
+1454702497 c:\users\admin\desktop\coo2\headers\cube.h
+	"Ppm.h"
+
+1454601927 source:c:\users\admin\desktop\coo2\sources\cercle.cpp
+	"../headers/Cercle.h"
+
